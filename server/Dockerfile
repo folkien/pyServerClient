@@ -2,7 +2,7 @@
 # We use the keyword 'FROM' to do that.
 # In our example, we want to import the python image (from DockerHub).
 # So, we write 'python' for the image name and 'latest' for the version.
-FROM python:latest
+FROM python:3.6-buster
 
 # In order to launch our python code, we must import the 'server.py' and 'index.html' file.
 # We use the keyword 'ADD' to do that.
